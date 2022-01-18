@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Admin</title>
+    <link href="css/estilo.admin.css"  rel='stylesheet' type='text/css'>
+    <style type="text/css" media="all">@import "./tabla.css";</style>
+</head>
+<body>
+  <div id="envelope">
+      <form class="contact_form" action="php/consultar.php" method="post" name="contact_form">
+        <ul>
+            <li>
+                 <h2>Admin-Consultar Mensajes BD</h2>
+
+            </li>
+            <li>
+                <label  for="email">Email:</label>
+                <input  type="email" name="email" placeholder="correo@..." required/><br><br>
+                <label   for="password">Password:</label>
+                <input type="password" name="password" placeholder="*******" required />
+
+            </li>
+            <li>
+                <button class="submit" type="submit">Consultar Mensajes</button>
+            </li>
+       </ul>
+
+      </form>
+    </div>
+
+</body>
+</html>
